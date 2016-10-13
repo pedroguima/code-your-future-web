@@ -1,3 +1,4 @@
+// TODO: THIS JS NEEDS CLEANUP
 
 function scroll_to(clicked_link, nav_height) {
 	var element_class = clicked_link.attr('href').replace('#', '.');
@@ -121,4 +122,5 @@ jQuery(window).load(function() {
 	$(".loader-img").fadeOut();
 	$(".loader").delay(1000).fadeOut("slow");
 	
+
 });
