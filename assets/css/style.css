@@ -416,33 +416,46 @@ ul.navbar-nav li a.big-link-1:hover {
     line-height: 36px;
 }
 
+/* Helper */
+.centered{
+    margin-left: auto;
+    margin-right: auto;
+}
 
-/***** Portfolio *****/
+/***** Team *****/
 
-.portfolio-container {
+.team-container {
     padding-bottom: 80px;
 }
 
-.portfolio p {
+.team p {
 	margin-bottom: 20px;
 }
 
-.portfolio-filters {
-	padding: 25px 0 20px 0;
-	font-size: 18px;
-    line-height: 22px;
-    text-transform: uppercase;
-}
-
-.portfolio-filters a { color: #888; }
-.portfolio-filters a:hover, .portfolio-filters a.active { color: #2ba560; }
-.portfolio-filters a.active { font-weight: 700; }
-
-.portfolio-box {
+.tea-box {
 	position: relative;
 	width: 255px;
 	margin: 30px 15px 0 15px;
 	overflow: hidden;
+}
+
+.avatar img {
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+	display: block;
+	border-radius: 100px;
+	 -webkit-border-radius: 100px;
+	 -moz-border-radius: 100px;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+
+.avatar .avatar-description {
+	font-size: 20px;
+    font-weight: 300;
+    padding-top: 20px;
 }
 
 /*.portfolio-box img { -o-transition: all .8s; -moz-transition: all .8s; -webkit-transition: all .8s; -ms-transition: all .8s; transition: all .8s; }*/
@@ -458,7 +471,6 @@ ul.navbar-nav li a.big-link-1:hover {
 	left: 0;
 	right: 0;
 	width: 255px;
-	-o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s;
 }
 
 .portfolio-box-text {

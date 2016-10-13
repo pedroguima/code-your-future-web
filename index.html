@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Lancar - Bootstrap One-Page Portfolio Template</title>
+        <title>Hack Your Future - Learn to code and find a job</title>
 
         <!-- CSS -->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700,300,400">        
@@ -37,6 +37,7 @@
 
     <body>
 		<!-- Top menu -->
+		<!-- TODO: TOGGLE icon is white - non visible -->
 		<nav class="navbar navbar-fixed-top" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
@@ -57,9 +58,9 @@
 						<li><a class="scroll-link" href="#about">About Us</a></li>
 						<li><a class="scroll-link" href="#contact">Contact</a></li>
 					</ul>
-					<ul class="nav navbar-nav navbar-right" id="top-navbar-1">
-						<li><a class="big-link-1 btn scroll-link " href="#donate">Donate</a></li>
-					</ul>
+					<!-- <ul class="nav navbar-nav navbar-right" id="top-navbar-1"> -->
+						<!-- <li><a class="big-link-1 btn scroll-link " href="#donate">Donate</a></li> -->
+					<!-- </ul> -->
 				</div>
 			</div>
 		</nav>
@@ -166,168 +167,97 @@
 	            </div>
         	</div>
         </div>
-
-        <!-- Counters -->
-        <!-- <div class="counters-container section-container section-container-full-bg">
-        	<div class="container">
-        		<div class="row">
-	            	<div class="col-sm-3 counter-box wow fadeInUp">
-                    	<h4 data-from="0" data-to="12">0</h4>
-                    	<p>Years of experience</p>
-	            	</div>
-	            	<div class="col-sm-3 counter-box wow fadeInDown">
-                    	<h4 data-from="0" data-to="274">0</h4>
-                    	<p>Projects completed</p>
-	            	</div>
-	            	<div class="col-sm-3 counter-box wow fadeInUp">
-                    	<h4 data-from="0" data-to="19295">0</h4>
-                    	<p>Lines of code</p>
-	            	</div>
-	            	<div class="col-sm-3 counter-box wow fadeInDown">
-                    	<h4 data-from="0" data-to="8296">0</h4>
-                    	<p>Cups of coffee</p>
-	            	</div>
-	            </div>
-        	</div>
-        </div> -->
-        
-        <!-- Portfolio -->
-        <!-- TODO Migrate from portfolio to about -->
-        <div class="about-container section-container">
+    
+        <!-- Team -->
+        <!-- TODO: Responsive - for mid screen 2 items -->
+        <div class="team-container section-container">
 	        <div class="container">
 	            <div class="row">
-	                <div class="col-sm-12 portfolio section-description wow fadeIn">
-	                	<h2>Our Team</h2>
+	                <div class="col-sm-12 team section-description wow fadeIn">
+	                	<h2>Team</h2>
 	                    <div class="divider-1 wow fadeInUp"><span></span></div>
 	                </div>
 	            </div>
-	            <!-- <div class="row">
-	            	<div class="col-sm-12 portfolio-filters wow fadeInUp">
-	            		<a href="#" class="filter-all active">All</a> / 
-	            		<a href="#" class="filter-design">Design</a> / 
-	            		<a href="#" class="filter-development">Development</a> / 
-	            		<a href="#" class="filter-branding">Branding</a>
-	            	</div>
-	            </div> -->
+
 	            <div class="row">
-	            	<div class="col-sm-12 portfolio-masonry">
-		                <div class="portfolio-box avatar">
-		                	<img src="assets/img/portfolio/1.jpg" alt="" data-at2x="assets/img/portfolio/1.jpg">
-		                	<div class="portfolio-box-text-container">
-		                		<div class="portfolio-box-text">
-		                			<p>Trilli Bi template</p>
-		                		</div>
-		                	</div>
-		                </div>
-
-		                <div class="portfolio-box development">
-		                	<img src="assets/img/portfolio/2.jpg" alt="" data-at2x="assets/img/portfolio/2.jpg">
-		                	<div class="portfolio-box-text-container">
-		                		<div class="portfolio-box-text">
-		                			<p>Sit amet logo</p>
-		                		</div>
-		                	</div>
-		                </div>
-
-
-		                <div class="portfolio-box branding">
-		                	<img src="assets/img/portfolio/3.jpg" alt="" data-at2x="assets/img/portfolio/3.jpg">
-		                	<div class="portfolio-box-text-container">
-		                		<div class="portfolio-box-text">
-		                			<p>Aeria app page</p>
-		                		</div>
-		                	</div>
-		                </div>
-		                <div class="portfolio-box development">
-		                	<img src="assets/img/portfolio/4.jpg" alt="" data-at2x="assets/img/portfolio/4.jpg">
-		                	<div class="portfolio-box-text-container">
-		                		<div class="portfolio-box-text">
-		                			<p>Etiam processus dynamicus</p>
-		                		</div>
-		                	</div>
+	            	<div class="col-sm-3">
+		                <div class="team-box avatar">
+		                	<img src="assets/img/portfolio/1.jpg" alt="">
+			                <div class="avatar-description">
+			                	John Doe
+			               	</div>
 		                </div>
 	                </div>
-                </div>
-
-                <div class="row">
-	                <div class="col-sm-12 portfolio section-description wow fadeIn">
-	                	<h2>Our Mentors</h2>
-	                    <div class="divider-1 wow fadeInUp"><span></span></div>
-	                </div>
+	            	<div class="col-sm-3">
+		                <div class="team-box avatar">
+		                	<img src="assets/img/portfolio/2.jpg" alt="">
+							<div class="avatar-description">
+								Mark Twain
+							</div>
+		                </div>
+	               </div>
+	            	<div class="col-sm-3">
+		                <div class="team-box avatar">
+		                	<img src="assets/img/portfolio/3.jpg" alt="">
+							<div class="avatar-description">
+								Leo Tolstoy
+							</div>
+		                </div>
+	               </div>
+	            	<div class="col-sm-3">
+		                <div class="team-box avatar">
+		                	<img src="assets/img/portfolio/4.jpg" alt="">
+							<div class="avatar-description">
+								Fyodor Dostoyevsky
+							</div>
+		                </div>
+	               </div>
 	            </div>
-                <div class="row">
-	            	<div class="col-sm-12 portfolio-masonry">
-		                <div class="portfolio-box design">
-		                	<img src="assets/img/portfolio/5.jpg" alt="" data-at2x="assets/img/portfolio/5.jpg">
-		                	<div class="portfolio-box-text-container">
-		                		<div class="portfolio-box-text">
-		                			<p>March notare site</p>
-		                		</div>
-		                	</div>
-		                </div>
 
+		        <div class="row">
+		        	<div class="col-sm-12 team section-description wow fadeIn">
+		        		<h2>Mentors</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+		        	</div>
+		        </div>
 
-		                <div class="portfolio-box development">
-		                	<img src="assets/img/portfolio/6.jpg" alt="" data-at2x="assets/img/portfolio/6.jpg">
-		                	<div class="portfolio-box-text-container">
-		                		<div class="portfolio-box-text">
-		                			<p>Mirum est notare</p>
-		                		</div>
-		                	</div>
+		        <div class="row">
+	            	<div class="col-sm-3">
+		                <div class="team-box avatar">
+		                	<img src="assets/img/portfolio/5.jpg" alt="">
+							<div class="avatar-description">
+								Stephen King
+			                </div>
+		               </div>
+		            </div>
+	            	<div class="col-sm-3">
+		                <div class="team-box avatar">
+		                	<img src="assets/img/portfolio/6.jpg" alt="">
+							<div class="avatar-description">
+								J. K. Rowling							
+							</div>
 		                </div>
-		                <div class="portfolio-box design">
-		                	<img src="assets/img/portfolio/7.jpg" alt="" data-at2x="assets/img/portfolio/7.jpg">
-		                	<div class="portfolio-box-text-container">
-		                		<div class="portfolio-box-text">
-		                			<p>Celic template</p>
-		                		</div>
-		                	</div>
+	               </div>
+	            	<div class="col-sm-3">
+		                <div class="team-box avatar">
+		                	<img src="assets/img/portfolio/7.jpg" alt="">
+		                	<div class="avatar-description">
+								Jane Austen
+							</div>
 		                </div>
-		                <div class="portfolio-box development">
-		                	<img src="assets/img/portfolio/8.jpg" alt="" data-at2x="assets/img/portfolio/8.jpg">
-		                	<div class="portfolio-box-text-container">
-		                		<div class="portfolio-box-text">
-		                			<p>Sit amet logo</p>
-		                		</div>
-		                	</div>
+	               </div>
+	            	<div class="col-sm-3">
+		                <div class="team-box avatar">
+		                	<img src="assets/img/portfolio/8.jpg" alt="">
+		                	<div class="avatar-description">
+								Charlotte Bronte
+							</div>
 		                </div>
-		                <div class="portfolio-box branding">
-		                	<img src="assets/img/portfolio/9.jpg" alt="" data-at2x="assets/img/portfolio/9.jpg">
-		                	<div class="portfolio-box-text-container">
-		                		<div class="portfolio-box-text">
-		                			<p>Jalia business</p>
-		                		</div>
-		                	</div>
-		                </div>
-		                <div class="portfolio-box design">
-		                	<img src="assets/img/portfolio/10.jpg" alt="" data-at2x="assets/img/portfolio/10.jpg">
-		                	<div class="portfolio-box-text-container">
-		                		<div class="portfolio-box-text">
-		                			<p>Mirum est notare</p>
-		                		</div>
-		                	</div>
-		                </div>
-		                <div class="portfolio-box development">
-		                	<img src="assets/img/portfolio/11.jpg" alt="" data-at2x="assets/img/portfolio/11.jpg">
-		                	<div class="portfolio-box-text-container">
-		                		<div class="portfolio-box-text">
-		                			<p>Etiam processus social</p>
-		                		</div>
-		                	</div>
-		                </div>
-		                <div class="portfolio-box branding">
-		                	<img src="assets/img/portfolio/12.jpg" alt="" data-at2x="assets/img/portfolio/12.jpg">
-		                	<div class="portfolio-box-text-container">
-		                		<div class="portfolio-box-text">
-		                			<p>Sit website logo</p>
-		                		</div>
-		                	</div>
-		                </div>
-	                </div>
+	               </div>
 	            </div>
 	        </div>
-        </div>
-        
+	    </div>
+
 		<!-- Block 2 -->
         <div class="block-2-container section-container section-container-gray">
 	        <div class="container">

@@ -124,34 +124,34 @@ jQuery(window).load(function() {
 	/*
 	    Portfolio
 	*/
-	$('.portfolio-masonry').masonry({
-		columnWidth: '.portfolio-box', 
-		itemSelector: '.portfolio-box',
-		transitionDuration: '0.5s'
-	});
+	// $('.portfolio-masonry').masonry({
+	// 	columnWidth: '.portfolio-box', 
+	// 	itemSelector: '.portfolio-box',
+	// 	transitionDuration: '0.5s'
+	// });
 	
-	$('.portfolio-filters a').on('click', function(e){
-		e.preventDefault();
-		if(!$(this).hasClass('active')) {
-	    	$('.portfolio-filters a').removeClass('active');
-	    	var clicked_filter = $(this).attr('class').replace('filter-', '');
-	    	$(this).addClass('active');
-	    	if(clicked_filter != 'all') {
-	    		$('.portfolio-box:not(.' + clicked_filter + ')').css('display', 'none');
-	    		$('.portfolio-box:not(.' + clicked_filter + ')').removeClass('portfolio-box');
-	    		$('.' + clicked_filter).addClass('portfolio-box');
-	    		$('.' + clicked_filter).css('display', 'block');
-	    		$('.portfolio-masonry').masonry();
-	    	}
-	    	else {
-	    		$('.portfolio-masonry > div').addClass('portfolio-box');
-	    		$('.portfolio-masonry > div').css('display', 'block');
-	    		$('.portfolio-masonry').masonry();
-	    	}
-		}
-	});
+	// $('.portfolio-filters a').on('click', function(e){
+	// 	e.preventDefault();
+	// 	if(!$(this).hasClass('active')) {
+	//     	$('.portfolio-filters a').removeClass('active');
+	//     	var clicked_filter = $(this).attr('class').replace('filter-', '');
+	//     	$(this).addClass('active');
+	//     	if(clicked_filter != 'all') {
+	//     		$('.portfolio-box:not(.' + clicked_filter + ')').css('display', 'none');
+	//     		$('.portfolio-box:not(.' + clicked_filter + ')').removeClass('portfolio-box');
+	//     		$('.' + clicked_filter).addClass('portfolio-box');
+	//     		$('.' + clicked_filter).css('display', 'block');
+	//     		$('.portfolio-masonry').masonry();
+	//     	}
+	//     	else {
+	//     		$('.portfolio-masonry > div').addClass('portfolio-box');
+	//     		$('.portfolio-masonry > div').css('display', 'block');
+	//     		$('.portfolio-masonry').masonry();
+	//     	}
+	// 	}
+	// });
 	
-	$(window).on('resize', function(){ $('.portfolio-masonry').masonry(); });
+	// $(window).on('resize', function(){ $('.portfolio-masonry').masonry(); });
 	
     /*
 	    Image popup
