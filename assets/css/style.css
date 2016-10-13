@@ -38,7 +38,6 @@ img { max-width: 100%; }
 ::-moz-selection { background: #2ba560; color: #fff; text-shadow: none; }
 ::selection { background: #2ba560; color: #fff; text-shadow: none; }
 
-
 /***** Loader *****/
 
 .loader {
@@ -90,12 +89,6 @@ img { max-width: 100%; }
 	font-weight: inherit;
 }
 
-/*.section-container-full-bg, 
-.section-container-full-bg h1, 
-.section-container-full-bg h2, 
-.section-container-full-bg h3, 
-.section-container-full-bg h4 { color: #fff; }*/
-
 .section-description {
 	margin-top: 60px;
     padding-bottom: 10px;
@@ -142,6 +135,12 @@ img { max-width: 100%; }
 .big-link-2:hover, .big-link-2:focus, .big-link-2:active, .big-link-2:active:focus { outline: 0; opacity: 0.6; background: none; color: #fff; }
 
 .green-text { color: #2ba560; }
+
+.md-icon {
+	width: 120px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 
 /***** Dividers *****/
@@ -259,7 +258,7 @@ ul.navbar-nav li a.big-link-1:hover {
 }
 
 
-/***** What we do (block 3) *****/
+/***** Who we are (block 3) *****/
 
 .block-3-box {
 	margin-top: 30px;
@@ -273,25 +272,6 @@ ul.navbar-nav li a.big-link-1:hover {
 	font-size: 18px;
     line-height: 32px;
 }
-
-.block-3-box .block-3-box-icon {
-    width: 80px;
-	height: 80px;
-    margin: 0 auto;
-	padding-top: 19px;
-	background: #2ba560;
-	border: 1px solid #2ba560;
-	-moz-border-radius: 40px; -webkit-border-radius: 40px; border-radius: 40px;
-	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
-    font-size: 34px;
-    color: #fff;
-    line-height: 34px;
-    text-align: center;
-}
-.block-3-box .block-3-box-icon:hover { background: none; color: #2ba560; }
-
-.block-3-box .block-3-box-icon i, .block-3-box .block-3-box-icon span { vertical-align: middle; }
-
 
 /***** Clients *****/
 
@@ -326,7 +306,7 @@ ul.navbar-nav li a.big-link-1:hover {
 
 
 /***** Block 2 *****/
-
+/* Use for two lists */
 .block-2-container {
 	padding-top: 50px;
 }
@@ -457,13 +437,6 @@ ul.navbar-nav li a.big-link-1:hover {
     font-weight: 300;
     padding-top: 20px;
 }
-
-/*.portfolio-box img { -o-transition: all .8s; -moz-transition: all .8s; -webkit-transition: all .8s; -ms-transition: all .8s; transition: all .8s; }*/
-
-/*.portfolio-box:hover img {
-	opacity: 0.6;
-	-o-transform: scale(1.25); -moz-transform: scale(1.25); -webkit-transform: scale(1.25); -ms-transform: scale(1.25); transform: scale(1.25);
-}*/
 
 .portfolio-box-text-container {
 	position: absolute;
@@ -713,6 +686,13 @@ footer .scroll-to-top a:hover, footer .scroll-to-top a:focus, footer .scroll-to-
     line-height: 32px;
     text-align: left;
 }
+
+footer .vendor-license,
+footer .vendor-license a {
+   color: #999;
+   font-style: italic;
+}
+
 .footer-copyright a { color: #fff; border: 0; }
 .footer-copyright a:hover, .footer-copyright a:focus { color: #fff; border-bottom: 1px dotted #fff; }
 
