@@ -1,4 +1,7 @@
 # Code Yor Future
+---
+[![CircleCI](https://circleci.com/gh/apmaros/code-your-future-web.svg?style=svg)](https://circleci.com/gh/apmaros/code-your-future-web)
+
 
 Pre-release version of the Code Your Future landing page.
 
