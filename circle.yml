@@ -5,8 +5,8 @@ deployment:
   staging:
     branch: staging
     commands:
-      - aws s3 sync web/ s3://staging-codeyourfuture --delete
+      - aws s3 sync src/ s3://staging-codeyourfuture --delete
   production:
     branch: master
     commands:
-      - aws s3 sync web/ s3://codeyourfuture --delete
+      - aws s3 sync src/ s3://codeyourfuture --delete
