@@ -1,0 +1,9 @@
+deployment:
+  demo:
+    branch: demo
+    commands:
+      - aws s3 sync / s3://codeyourfuture/web --delete
+  prod:
+    branch: master
+    commands:
+      - aws s3 sync / s3://codeyourfuture/web --delete
