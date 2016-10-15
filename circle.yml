@@ -1,0 +1,12 @@
+test:
+  override:
+    - echo "NO-TESTS"
+deployment:
+  staging:
+    branch: staging
+    commands:
+      - aws s3 sync src/ s3://staging-codeyourfuture --delete
+  production:
+    branch: master
+    commands:
+      - aws s3 sync src/ s3://codeyourfuture --delete
