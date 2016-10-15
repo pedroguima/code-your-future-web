@@ -42,7 +42,7 @@ jQuery(document).ready(function() {
     /*
         Fullscreen backgrounds
     */
-    // $('.page-title').backstretch("assets/img/backgrounds/1.jpg");
+    $('.page-title').backstretch("assets/img/backgrounds/1.jpg");
     // $('.counters-container').backstretch("assets/img/backgrounds/1.jpg");
     // $('.our-motto-container').backstretch("assets/img/backgrounds/1.jpg");
     // $('.call-to-action-container').backstretch("assets/img/backgrounds/1.jpg");

@@ -227,13 +227,14 @@ ul.navbar-nav li a.big-link-1:hover {
 
 .page-title {
     padding: 260px 0 210px 0;
-    background-color: #5880a5;
 }
 
 .page-title-text {
-    width: 700px;
+    width: 750px;
     margin: 0 auto; 
     color: #fff;
+    background-color: rgba(62, 100, 132, 0.42);
+    padding: 20px;
 }
 
 .page-title-text h1 {
