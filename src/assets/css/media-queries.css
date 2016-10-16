@@ -35,8 +35,8 @@
 	
 	.navbar>.container .navbar-brand { margin-left: 15px; }
 	.navbar-collapse { border: 0; }
-	.navbar-toggle { margin-top: 16px; }
-	.navbar-toggle .icon-bar { background: #fff; }
+	.navbar-toggle { /*margin-top: 16px;*/ }
+	.navbar-toggle .icon-bar { background: #337ab7; }
 	ul.navbar-nav li a { padding-top: 13px; padding-bottom: 13px; }
 	
 	h2, .divider-1, .section-description p { text-align: center; }
@@ -77,6 +77,8 @@
 	footer, .footer-copyright { text-align: center; }
 	.footer-copyright { padding-bottom: 15px; }
 
+	.col-sm-3, .col-sm-4 { margin-bottom: 50px; }
+	.col-sm-3:last-child, .col-sm-4:last-child { margin-bottom: 0; }
 }
 
 @media (max-width: 415px) {
