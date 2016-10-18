@@ -3,7 +3,7 @@ body {
     background: #fff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    color: #888;
+    color: #000;
     text-align: center;
 }
 
@@ -130,6 +130,20 @@ img { max-width: 100%; }
     -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;
 }
 .big-link-2:hover, .big-link-2:focus, .big-link-2:active, .big-link-2:active:focus { outline: 0; opacity: 0.6; background: none; color: #fff; }
+
+.big-link-3 {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px 15px;
+    background: none;
+    border: 1px solid #000;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #000;
+    -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;
+}
+.big-link-3:hover, .big-link-3:focus, .big-link-3:active, .big-link-3:active:focus { outline: 0; opacity: 0.6; background: rgba(0,0,0,.2); color: #333; }
 
 .green-text { color: #2ba560; }
 
@@ -259,7 +273,17 @@ ul.navbar-nav li a.big-link-1:hover {
     padding-bottom: 7px;
 }
 
+/****** Top section ******/
 
+.top-section{
+    padding-top: 60px;
+}
+
+.top-section p{
+    padding: 0;
+    font-size: 18px;
+    line-height: 32px;
+}
 /***** Who we are (block 3) *****/
 
 .block-3-box {
@@ -337,14 +361,20 @@ ul.navbar-nav li a.big-link-1:hover {
 }
 
 .block-2-box ul {
-    padding: 0;
-    list-style: none;
     font-size: 18px;
     line-height: 32px;
 }
 
 .block-2-box ul li {
+    /* any general style? */
+}
+
+.help-section.block-2-box ul {
     padding: 5px 0;
+}
+
+.help-section.block-2-box li {
+    list-style: none;
     color: #fff;
     font-weight: 100;
     text-transform: uppercase;
@@ -353,10 +383,11 @@ ul.navbar-nav li a.big-link-1:hover {
 .block-2-box ul span.list-icon img {
     padding-right: 10px;
     vertical-align: middle;
-
     width: 70px;
     padding-right: 20px;
+    color: #000000;
 }
+
 
 .block-2-img-container {
     position: relative;
@@ -446,13 +477,13 @@ ul.navbar-nav li a.big-link-1:hover {
 }
 
 
-/***** Our motto *****/
+/***** Section hero *****/
 
-.our-motto { color: #fff; }
+.section-hero { color: #fff; }
 
-.our-motto p { margin-top: 10px; text-align: center; }
+.section-hero p { margin-top: 10px; text-align: center; }
 
-.our-motto-author {
+.section-hero-author {
     margin-top: 30px;
     font-size: 22px;
     line-height: 36px;

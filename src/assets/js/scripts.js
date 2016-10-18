@@ -45,7 +45,7 @@ jQuery(document).ready(function() {
     $('.page-title').backstretch("assets/img/backgrounds/1.jpg");
     $('.students-title').backstretch("assets/img/backgrounds/2.jpg");
     // $('.counters-container').backstretch("assets/img/backgrounds/1.jpg");
-    // $('.our-motto-container').backstretch("assets/img/backgrounds/1.jpg");
+    $('.section-hero-container').backstretch("assets/img/backgrounds/1.jpg");
     // $('.call-to-action-container').backstretch("assets/img/backgrounds/1.jpg");
 	
 	/*
