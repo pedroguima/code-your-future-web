@@ -14,7 +14,7 @@
 
 
 jQuery(document).ready(function() {
-	
+
 	/*
 	    Navigation
 	*/
@@ -22,7 +22,7 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 		scroll_to($(this), $('nav').outerHeight());
 	});
-    
+
     /*
 	    Scroll to top
 	*/
@@ -33,34 +33,34 @@ jQuery(document).ready(function() {
 			$('html, body').stop().animate({scrollTop: scroll_to}, 1000);
 		}
 	});
-    
+
     /*
 	    Wow
 	*/
 	new WOW().init();
-    
+
     /*
         Fullscreen backgrounds
     */
-    $('.page-title').backstretch("assets/img/backgrounds/1.jpg");
-    $('.students-title').backstretch("assets/img/backgrounds/2.jpg");
-    // $('.counters-container').backstretch("assets/img/backgrounds/1.jpg");
-    $('.section-hero-container').backstretch("assets/img/backgrounds/1.jpg");
-    // $('.call-to-action-container').backstretch("assets/img/backgrounds/1.jpg");
-	
+    $('.page-title').backstretch("img/backgrounds/1.jpg");
+    $('.students-title').backstretch("img/backgrounds/2.jpg");
+    // $('.counters-container').backstretch("img/backgrounds/1.jpg");
+    $('.section-hero-container').backstretch("img/backgrounds/1.jpg");
+    // $('.call-to-action-container').backstretch("img/backgrounds/1.jpg");
+
 	/*
 	    Counters
 	*/
 	$('.counters-container').waypoint(function() {
 		$('.counter-box h4').countTo();
 	}, { offset: '100%' });
-	
+
 	/*
 	    Testimonials
 	*/
 	$('.testimonial-active').html('<p>' + $('.testimonial-single:first p').html() + '</p>');
 	$('.testimonial-single:first .testimonial-single-image img').css('opacity', '1');
-	
+
 	$('.testimonial-single-image img').on('click', function() {
 		$('.testimonial-single-image img').css('opacity', '0.3');
 		$(this).css('opacity', '1');
@@ -70,7 +70,7 @@ jQuery(document).ready(function() {
 			$(this).fadeIn(400);
 		});
 	});
-	
+
 	/*
 	    Contact form
 	*/
@@ -110,18 +110,18 @@ jQuery(document).ready(function() {
 	        }
 	    });
 	});
-    
+
 });
 
 
 
 jQuery(window).load(function() {
-	
+
 	/*
 		Loader
 	*/
 	$(".loader-img").fadeOut();
 	$(".loader").delay(1000).fadeOut("slow");
-	
+
 
 });
