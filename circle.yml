@@ -17,6 +17,7 @@ deployment:
   staging:
     branch: staging
     commands:
+      - npm install
       - gulp rebuild
       - aws s3 sync src/build s3://staging-codeyourfuture --delete
   production:
