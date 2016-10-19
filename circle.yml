@@ -20,7 +20,7 @@ deployment:
     commands:
       - npm install
       - gulp rebuild
-      - aws s3 sync src/build s3://staging-codeyourfuture --delete
+      - aws s3 sync build s3://staging-codeyourfuture --delete
   production:
     branch: master
     commands:
