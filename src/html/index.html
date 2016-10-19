@@ -1,9 +1,7 @@
 {{#extend "layout"}}
 {{#content "main"}}
+  {{>nav_landing_page}}
 
-<!-- Page title -->
-<!-- block cross over -->
-<!-- capital -->
 <div class="page-title top-content">
   <div class="page-title-text wow fadeInUp">
     <h1>Refugee Coding School</h1>
@@ -14,7 +12,6 @@
     </div>
   </div>
 </div>
-<!-- CONTENT -->
 
 <!-- Who we are -->
 <div class="block-3-container section-container">
@@ -100,7 +97,7 @@
 </div>
 
 <!-- Team -->
-<div class="section-container team-container section-container-gray">
+<div id="team" class="section-container team-container section-container-gray">
   <div class="container">
       <div class="row">
           <div class="col-sm-12 team section-description wow fadeIn">
@@ -247,45 +244,6 @@
       </div>
       <div class="testimonials-icon-container">
         <span aria-hidden="true" class="icon_chat"></span>
-      </div>
-  </div>
-</div>
-
-<!-- Contact us (block 2) -->
-<!-- TODO: -->
-<div class="block-2-container section-container contact-container">
-  <div class="container">
-      <div class="row">
-          <div class="col-sm-12 block-2 section-description wow fadeIn">
-            <h2>Get in touch</h2>
-            <div class="divider-1 wow fadeInUp"><span></span></div>
-              <p>
-                <strong>Say Hi.</strong>
-              </p>
-          </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-10 block-2-box block-2-left contact-form wow fadeInLeft">
-          <h3>Email us</h3>
-              <form role="form" action="assets/contact.php" method="post">
-                <div class="form-group">
-                  <label class="sr-only" for="contact-email">Email</label>
-                    <input type="text" name="email" placeholder="Email..." class="contact-email form-control" id="contact-email">
-                  </div>
-                  <div class="form-group">
-                    <label class="sr-only" for="contact-subject">Subject</label>
-                    <input type="text" name="subject" placeholder="Subject..." class="contact-subject form-control" id="contact-subject">
-                  </div>
-                  <div class="form-group">
-                    <label class="sr-only" for="contact-message">Message</label>
-                    <textarea name="message" placeholder="Message..." class="contact-message form-control" id="contact-message"></textarea>
-                  </div>
-                  <button type="submit" class="btn">Send it</button>
-              </form>
-        </div>
-      </div>
-      <div class="contact-icon-container">
-        <span aria-hidden="true" class="icon_mail"></span>
       </div>
   </div>
 </div>
