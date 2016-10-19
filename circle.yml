@@ -1,11 +1,24 @@
+machine:
+  node:
+    version: 6.1.0
+dependencies:
+  override:
+    - npm install
+    - npm install -g gulp
 test:
   override:
     - echo "NO-TESTS"
 deployment:
+  demo:
+    branch: static-multipage-rs
+    commands:
+      - gulp rebuild
+      - aws s3 sync src/build s3://staging-codeyourfuture --delete
   staging:
     branch: staging
     commands:
-      - aws s3 sync src/ s3://staging-codeyourfuture --delete
+      - gulp rebuild
+      - aws s3 sync src/build s3://staging-codeyourfuture --delete
   production:
     branch: master
     commands:
