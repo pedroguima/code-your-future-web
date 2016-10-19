@@ -243,6 +243,10 @@ ul.navbar-nav li a.big-link-1:hover {
     text-indent: -99999px;
 }
 
+.scetion-container{
+
+}
+
 
 /***** Page title *****/
 
@@ -429,6 +433,23 @@ ul.navbar-nav li a.big-link-1:hover {
     padding: 20em;
 }
 
+.hack-your-future-hero-wrap{
+    background: url(../img/partners/hack_your_future_working.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20em;
+}
+
+.hack-your-future-hero-wrap h1 {
+    color: #fff;
+}
+
+.hack-your-future-hero-wrap p {
+    font-size: 15px;
+    color: #fff;
+    font-size: 1.5em;
+    text-shadow: 2px 1px 1px #a9a9a9;
+}
 /***** Team *****/
 
 .team-container {
