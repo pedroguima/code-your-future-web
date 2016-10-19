@@ -307,12 +307,15 @@ ul.navbar-nav li a.big-link-1:hover {
     line-height: 32px;
 }
 
-
-/***** Clients *****/
-
-.clients-container {
-    padding-bottom: 0;
+.partners-top-section {
+    text-align: left;
+    padding-top: 20px;
 }
+
+.partners-top-section a {
+    /*margin-top: 20px;*/
+}
+/***** Clients *****/
 
 .clients-text {
     text-align: left;
@@ -342,9 +345,32 @@ ul.navbar-nav li a.big-link-1:hover {
 .clients a:hover, .clients a:focus { outline: 0; opacity: 0.6; }
 
 
+/***** Block definition *****/
+
+.block-container {
+    padding-top: 50px;
+}
+
+.block-container {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.block-box ul span.list-icon img {
+    padding-right: 10px;
+    vertical-align: middle;
+    max-width: 70px;
+    padding-right: 20px;
+    color: #000000;
+}
+
 /***** Block 2 *****/
 /* Use for two columns with lists */
 
+/* @DEPRECATED 
+ instead block-2-container
+ use block-container */
 .block-2-container {
     padding-top: 50px;
 }
@@ -353,6 +379,10 @@ ul.navbar-nav li a.big-link-1:hover {
     padding-top: 30px;
     padding-bottom: 20px;
     text-align: left;
+}
+
+.block-2-box h1 {
+    padding-top: -25px;
 }
 
 .block-2-box.block-2-media {
@@ -375,25 +405,36 @@ ul.navbar-nav li a.big-link-1:hover {
     line-height: 32px;
 }
 
-.help-section.block-2-box ul {
+.clients-container.section-container{
+    padding-bottom: 10px
+}
+
+.help-section.block-box ul {
     padding: 5px 0;
 }
 
-.help-section.block-2-box li {
+.help-section.block-box li {
     list-style: none;
-    color: #fff;
     font-weight: 100;
     text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.help-section h3 {
+    color: #000
+}
+
+.hack-your-future{
+    padding-top: 45px;
 }
 
 .block-2-box ul span.list-icon img {
     padding-right: 10px;
     vertical-align: middle;
-    width: 70px;
+    max-width: 70px;
     padding-right: 20px;
     color: #000000;
 }
-
 
 .block-2-img-container {
     position: relative;

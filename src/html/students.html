@@ -1,19 +1,10 @@
 {{#extend "layout"}}
 {{#content "main"}}
   {{>nav_external}}
-    <div class="block-3-container section-container top-section section-container-blue">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 col-sm-offset-2 block-3 section-description">
-            <h2>This is the beginning of your programming career.</h2>
-            <div class="divider-1"><span></span></div>
-            <p>
-            In our community you will learn all the technical skills you need to become a professional developer. We’ll complement it with workshops about modern software methodologies and job interview practice. Our 6-month web development programme aims to replicate the success of our cousin organisation in Amsterdam, HackYourFuture, where over 50% of the graduates have already started working in a technical job. During the course you will learn the web development full stack HTML/CSS, JavaScript, React and backend technologies.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+    {{#extend "top_section"}}
+      {{#content "title"}}This asdfasdfsis the beginning of your programming career.{{/content}}
+      {{#content "content"}}In our community you will learn all the technical skills you need to become a professional developer. We’ll complement it with workshops about modern software methodologies and job interview practice. Our 6-month web development programme aims to replicate the success of our cousin organisation in Amsterdam, HackYourFuture, where over 50% of the graduates have already started working in a technical job. During the course you will learn the web development full stack HTML/CSS, JavaScript, React and backend technologies.{{/content}}
+    {{/extend}}
 
     <div class="student-hero-wrap"></div>
 
