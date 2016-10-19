@@ -1,9 +1,9 @@
 body {
     min-width: 320px;
     background: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    color: #888;
+    font-family: 'Lora', sans-serif;
+    font-weight: 100;
+    color: #000;
     text-align: center;
 }
 
@@ -31,6 +31,10 @@ h3 {
     color: #888;
     line-height: 30px;
     text-transform: uppercase;
+}
+
+p {
+    font-size: 15px;
 }
 
 img { max-width: 100%; }
@@ -74,7 +78,7 @@ img { max-width: 100%; }
 .section-container-gray { background: #f8f8f8; }
 
 .section-container-blue {
-    background: #337ab7;
+    background: #75a2ca;
 }
 
 .section-container-blue h1,
@@ -130,6 +134,20 @@ img { max-width: 100%; }
     -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;
 }
 .big-link-2:hover, .big-link-2:focus, .big-link-2:active, .big-link-2:active:focus { outline: 0; opacity: 0.6; background: none; color: #fff; }
+
+.big-link-3 {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px 15px;
+    background: none;
+    border: 1px solid #000;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #000;
+    -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;
+}
+.big-link-3:hover, .big-link-3:focus, .big-link-3:active, .big-link-3:active:focus { outline: 0; opacity: 0.6; background: rgba(0,0,0,.2); color: #333; }
 
 .green-text { color: #2ba560; }
 
@@ -225,6 +243,10 @@ ul.navbar-nav li a.big-link-1:hover {
     text-indent: -99999px;
 }
 
+.scetion-container{
+
+}
+
 
 /***** Page title *****/
 
@@ -233,8 +255,7 @@ ul.navbar-nav li a.big-link-1:hover {
 }
 
 .page-title-text {
-    width: 750px;
-    margin: 0 auto; 
+    margin: 0 auto;
     color: #fff;
     background-color: rgba(62, 100, 132, 0.42);
     padding: 20px;
@@ -259,7 +280,17 @@ ul.navbar-nav li a.big-link-1:hover {
     padding-bottom: 7px;
 }
 
+/****** Top section ******/
 
+.top-section{
+    padding-top: 60px;
+}
+
+.top-section p{
+    padding: 0;
+    font-size: 18px;
+    line-height: 32px;
+}
 /***** Who we are (block 3) *****/
 
 .block-3-box {
@@ -275,12 +306,15 @@ ul.navbar-nav li a.big-link-1:hover {
     line-height: 32px;
 }
 
-
-/***** Clients *****/
-
-.clients-container {
-    padding-bottom: 0;
+.partners-top-section {
+    text-align: left;
+    padding-top: 20px;
 }
+
+.partners-top-section a {
+    /*margin-top: 20px;*/
+}
+/***** Clients *****/
 
 .clients-text {
     text-align: left;
@@ -310,9 +344,44 @@ ul.navbar-nav li a.big-link-1:hover {
 .clients a:hover, .clients a:focus { outline: 0; opacity: 0.6; }
 
 
+/***** Block definition *****/
+
+.block-container {
+    padding-top: 50px;
+}
+
+.block-container {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.block-box ul span.list-icon img {
+    padding-right: 10px;
+    vertical-align: middle;
+    max-width: 70px;
+    padding-right: 20px;
+    color: #000000;
+}
+
+.apply-teaser {
+    font-size: 1.8em;
+    padding-top: 20px;
+}
+
+.teaser-description {
+    padding-top: 11px;
+    padding-bottom: 10px;
+    padding-left: 57px;
+}
+
+
 /***** Block 2 *****/
 /* Use for two columns with lists */
 
+/* @DEPRECATED 
+ instead block-2-container
+ use block-container */
 .block-2-container {
     padding-top: 50px;
 }
@@ -323,10 +392,16 @@ ul.navbar-nav li a.big-link-1:hover {
     text-align: left;
 }
 
-.block-2-box.block-2-media { padding-bottom: 25px; }
+.block-2-box h1 {
+    padding-top: -25px;
+}
+
+.block-2-box.block-2-media {
+    padding-bottom: 25px;
+}
 
 .block-2-box h3 {
-    padding: 10px 0;
+    padding: 20px;
 }
 
 .block-2-box h3:first-child { margin-top: 0; }
@@ -337,25 +412,39 @@ ul.navbar-nav li a.big-link-1:hover {
 }
 
 .block-2-box ul {
-    padding: 0;
-    list-style: none;
     font-size: 18px;
     line-height: 32px;
 }
 
-.block-2-box ul li {
+.clients-container.section-container{
+    padding-bottom: 10px
+}
+
+.help-section.block-box ul {
     padding: 5px 0;
-    color: #fff;
+}
+
+.help-section.block-box li {
+    list-style: none;
     font-weight: 100;
     text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.help-section h3 {
+    color: #000
+}
+
+.hack-your-future{
+    padding-top: 45px;
 }
 
 .block-2-box ul span.list-icon img {
     padding-right: 10px;
     vertical-align: middle;
-
-    width: 70px;
+    max-width: 70px;
     padding-right: 20px;
+    color: #000000;
 }
 
 .block-2-img-container {
@@ -384,7 +473,35 @@ ul.navbar-nav li a.big-link-1:hover {
     margin: 0 auto;
 }
 
+.block-2-box-btn{
+    margin-top: 10px;
+    margin-left: 20px;
+}
 
+.student-hero-wrap{
+    background: url(../img/students/students-group.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20em;
+}
+
+.hack-your-future-hero-wrap{
+    background: url(../img/partners/hack_your_future_working.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20em;
+}
+
+.hack-your-future-hero-wrap h1 {
+    color: #fff;
+}
+
+.hack-your-future-hero-wrap p {
+    font-size: 15px;
+    color: #fff;
+    font-size: 1.5em;
+    text-shadow: 2px 1px 1px #a9a9a9;
+}
 /***** Team *****/
 
 .team-container {
@@ -446,13 +563,13 @@ ul.navbar-nav li a.big-link-1:hover {
 }
 
 
-/***** Our motto *****/
+/***** Section hero *****/
 
-.our-motto { color: #fff; }
+.section-hero { color: #fff; }
 
-.our-motto p { margin-top: 10px; text-align: center; }
+.section-hero p { margin-top: 10px; text-align: center; }
 
-.our-motto-author {
+.section-hero-author {
     margin-top: 30px;
     font-size: 22px;
     line-height: 36px;
@@ -637,6 +754,7 @@ footer .vendor-license,
 footer .vendor-license a {
    color: #999;
    font-style: italic;
+   font-size: 0.8em;
 }
 
 .footer-copyright a { color: #fff; border: 0; }

@@ -1,0 +1,27 @@
+{
+  "name": "code-your-future-web",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apmaros/code-your-future-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apmaros/code-your-future-web/issues"
+  },
+  "homepage": "https://github.com/apmaros/code-your-future-web#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "gulp": "^3.9.1",
+    "gulp-hb": "^5.1.4",
+    "gulp-sass": "^2.3.2",
+    "handlebars-layouts": "^3.1.4",
+    "run-sequence": "^1.2.2"
+  }
+}
