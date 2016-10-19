@@ -1,8 +1,8 @@
 body {
     min-width: 320px;
     background: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-family: 'Lora', sans-serif;
+    font-weight: 100;
     color: #000;
     text-align: center;
 }
@@ -31,6 +31,10 @@ h3 {
     color: #888;
     line-height: 30px;
     text-transform: uppercase;
+}
+
+p {
+    font-size: 15px;
 }
 
 img { max-width: 100%; }
@@ -347,10 +351,12 @@ ul.navbar-nav li a.big-link-1:hover {
     text-align: left;
 }
 
-.block-2-box.block-2-media { padding-bottom: 25px; }
+.block-2-box.block-2-media {
+    padding-bottom: 25px;
+}
 
 .block-2-box h3 {
-    padding: 10px 0;
+    padding: 20px;
 }
 
 .block-2-box h3:first-child { margin-top: 0; }
@@ -363,10 +369,6 @@ ul.navbar-nav li a.big-link-1:hover {
 .block-2-box ul {
     font-size: 18px;
     line-height: 32px;
-}
-
-.block-2-box ul li {
-    /* any general style? */
 }
 
 .help-section.block-2-box ul {
@@ -415,6 +417,17 @@ ul.navbar-nav li a.big-link-1:hover {
     margin: 0 auto;
 }
 
+.block-2-box-btn{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.section-hero-wrap{
+    background: url(../img/students/students-group.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20em;
+}
 
 /***** Team *****/
 
