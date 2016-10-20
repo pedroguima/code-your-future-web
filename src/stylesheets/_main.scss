@@ -216,12 +216,26 @@ img { max-width: 100%; }
 ul.navbar-nav {
     font-size: 16px;
     color: #888;
-    text-transform: uppercase;
 }
 
-ul.navbar-nav li a { padding-top: 23px; padding-bottom: 23px; color: #888; }
-ul.navbar-nav li a:hover { background: none; color: #2ba560; }
-ul.navbar-nav li a:focus { background: none; color: #2ba560; outline: 0; }
+ul.navbar-nav li a {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    color: #888;
+}
+
+ul.navbar-nav li a:hover { 
+    background: none;
+    color: #2ba560;
+    text-decoration: underline;
+}
+
+ul.navbar-nav li a:focus {
+    background: none;
+    color: #2ba560;
+    outline: 0;
+    text-decoration: underline;
+}
 
 .navbar>.container .navbar-brand { margin-left: 0; }
 
