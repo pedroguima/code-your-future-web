@@ -3,8 +3,23 @@
 
 [![CircleCI](https://circleci.com/gh/apmaros/code-your-future-web/tree/master.svg?style=svg&circle-token=b43e2591c0bb4c09883aa92396ed557616245dd0)](https://circleci.com/gh/apmaros/code-your-future-web/tree/master)
 
+## Requirements
 
-Pre-release version of the Code Your Future landing page.
+- node
+
+## Install
+
+- npm install
+- gulp rebuild # to build index to ./build folder
+- gulp watch # automatically rebuild when source is modified
+
+## Present
+
+To present merge your changes to `demo` branch. CI build deploy it to S3 on URL:
+- [demo-codeyourfuture.s3-website-us-west-2.amazonaws.com](demo-codeyourfuture.s3-website-us-west-2.amazonaws.com)
+
+Currently, there is only one release candidate branch `staging` accessible on:
+- [staging-codeyourfuture.s3-website-us-west-2.amazonaws.com](demo-codeyourfuture.s3-website-us-west-2.amazonaws.com)
 
 ## Contribute
 

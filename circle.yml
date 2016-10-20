@@ -10,11 +10,11 @@ test:
     - echo "NO-TESTS"
 deployment:
   demo:
-    branch: static-multipage-rs
+    branch: demo
     commands:
       - npm install
       - gulp rebuild
-      - aws s3 sync build s3://staging-codeyourfuture --delete
+      - aws s3 sync build s3://demo-codeyourfuture --delete
   staging:
     branch: staging
     commands:
@@ -26,4 +26,4 @@ deployment:
     commands:
       - npm install
       - gulp rebuild
-      - aws s3 sync build s3://staging-codeyourfuture --delete
+      - aws s3 sync build s3://codeyourfuture --delete
