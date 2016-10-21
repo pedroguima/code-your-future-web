@@ -44,32 +44,6 @@ img { max-width: 100%; }
 ::-moz-selection { background: #2ba560; color: #fff; text-shadow: none; }
 ::selection { background: #2ba560; color: #fff; text-shadow: none; }
 
-/***** Loader *****/
-
-.loader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    overflow: hidden !important;
-    z-index: 99999;
-}
-
-.loader-img {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin: -30px 0 0 -30px;
-    width: 60px;
-    height: 60px;
-    background: url(../img/loading.gif) center center no-repeat;
-}
-
-
 /***** General style, all sections *****/
 
 .section-container {
@@ -238,7 +212,7 @@ ul.navbar-nav li a:focus {
     text-decoration: underline;
 }
 
-.navbar>.container .navbar-brand { margin-left: 0; }
+/*.navbar>.container .navbar-brand { margin-left: 0; }*/
 
 ul.navbar-nav li a.big-link-1{
     background-color: #2ba560;
@@ -256,8 +230,8 @@ ul.navbar-nav li a.big-link-1:hover {
 .navbar-brand {
     width: 215px;
     height: 66px;
-    background: url(ico/facebook.svg) left center no-repeat;
-    text-indent: -99999px;
+    /*background: url(ico/facebook.svg) left center no-repeat;*/
+    /*text-indent: -99999px;*/
 }
 
 .scetion-container{
