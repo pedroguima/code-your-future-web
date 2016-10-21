@@ -1,7 +1,7 @@
 body {
     min-width: 320px;
     background: #fff;
-    font-family: 'Lora', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
     color: #000;
     text-align: center;
@@ -212,7 +212,7 @@ ul.navbar-nav li a:focus {
     text-decoration: underline;
 }
 
-/*.navbar>.container .navbar-brand { margin-left: 0; }*/
+.navbar>.container .navbar-brand { margin-left: 0; }
 
 ul.navbar-nav li a.big-link-1{
     background-color: #2ba560;
@@ -228,17 +228,32 @@ ul.navbar-nav li a.big-link-1:hover {
 }
 
 .navbar-brand {
+    padding: 25px 15px;
     width: 215px;
     height: 66px;
     /*background: url(ico/facebook.svg) left center no-repeat;*/
     /*text-indent: -99999px;*/
 }
 
-.scetion-container{
-
+.navbar-brand a {
+    padding: 25px 15px;
+    width: 215px;
+    height: 66px;
+    /*background: url(ico/facebook.svg) left center no-repeat;*/
+    /*text-indent: -99999px;*/
+/*    color: #000 !important;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 900;;*/
 }
 
-
+.text-brand a{
+    color: #737373;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: 900;
+}
 /***** Page title *****/
 
 .page-title {
