@@ -26,4 +26,4 @@ deployment:
     commands:
       - npm install
       - gulp rebuild
-      - aws s3 sync build s3://codeyourfuture --delete
+      - aws s3 sync build s3://codeyourfuture.co --delete
