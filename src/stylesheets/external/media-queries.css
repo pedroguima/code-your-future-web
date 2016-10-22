@@ -35,7 +35,7 @@
 	
 	.navbar>.container .navbar-brand { margin-left: 15px; }
 	.navbar-collapse { border: 0; }
-	.navbar-toggle { /*margin-top: 16px;*/ }
+	.navbar-toggle { padding-top: 13px; }
 	.navbar-toggle .icon-bar { background: #337ab7; }
 	ul.navbar-nav li a { padding-top: 13px; padding-bottom: 13px; }
 	
