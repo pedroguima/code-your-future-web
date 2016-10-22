@@ -129,8 +129,8 @@ img { max-width: 100%; }
 .green-text { color: #2ba560; }
 
 .md-icon img{
-    max-width: 120px;
-    max-height: 120px;
+    max-width: 80px;
+    max-height: 80px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -747,6 +747,9 @@ footer .scroll-to-top a:hover, footer .scroll-to-top a:focus, footer .scroll-to-
 
 footer .credits {
     text-align: left;
+}
+
+footer .vendor {
     font-size: 0.8em;
 }
 
@@ -758,8 +761,8 @@ footer .vendor-license,
 footer .vendor-license a {
    color: #999;
    font-style: italic;
-   font-size: 0.8em;
    text-align: left;
+   font-size: 0.8em;
 }
 
 .footer-copyright a { color: #fff; border: 0; }
