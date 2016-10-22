@@ -1,9 +1,9 @@
 body {
     min-width: 320px;
     background: #fff;
-    font-family: 'Lora', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    color: #000;
+    color: #555;
     text-align: center;
 }
 
@@ -17,12 +17,14 @@ a, a:hover, a:focus {
 
 h1, h2 {
     margin-top: 10px;
-    font-size: 42px;
     font-weight: 700;
     color: #444;
     line-height: 54px;
     text-transform: uppercase;
 }
+
+h1 { font-size: 42px }
+
 h2 { text-align: left; }
 
 h3 {
@@ -41,32 +43,6 @@ img { max-width: 100%; }
 
 ::-moz-selection { background: #2ba560; color: #fff; text-shadow: none; }
 ::selection { background: #2ba560; color: #fff; text-shadow: none; }
-
-/***** Loader *****/
-
-.loader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    overflow: hidden !important;
-    z-index: 99999;
-}
-
-.loader-img {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin: -30px 0 0 -30px;
-    width: 60px;
-    height: 60px;
-    background: url(../img/loading.gif) center center no-repeat;
-}
-
 
 /***** General style, all sections *****/
 
@@ -104,6 +80,7 @@ img { max-width: 100%; }
 .section-bottom-link {
     padding-top: 15px;
     padding-bottom: 20px;
+    text-align: left;
 }
 
 .big-link-1 {
@@ -151,8 +128,9 @@ img { max-width: 100%; }
 
 .green-text { color: #2ba560; }
 
-.md-icon {
-    width: 120px;
+.md-icon img{
+    max-width: 120px;
+    max-height: 120px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -214,12 +192,26 @@ img { max-width: 100%; }
 ul.navbar-nav {
     font-size: 16px;
     color: #888;
-    text-transform: uppercase;
 }
 
-ul.navbar-nav li a { padding-top: 23px; padding-bottom: 23px; color: #888; }
-ul.navbar-nav li a:hover { background: none; color: #2ba560; }
-ul.navbar-nav li a:focus { background: none; color: #2ba560; outline: 0; }
+ul.navbar-nav li a {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    color: #888;
+}
+
+ul.navbar-nav li a:hover { 
+    background: none;
+    color: #000;
+    text-decoration: underline;
+}
+
+ul.navbar-nav li a:focus {
+    background: none;
+    color: #2ba560;
+    outline: 0;
+    text-decoration: underline;
+}
 
 .navbar>.container .navbar-brand { margin-left: 0; }
 
@@ -237,17 +229,27 @@ ul.navbar-nav li a.big-link-1:hover {
 }
 
 .navbar-brand {
-    width: 117px;
+    padding: 25px 15px;
+    width: 240;
     height: 66px;
-    background: url(../img/logo.png) left center no-repeat;
-    text-indent: -99999px;
 }
 
-.scetion-container{
-
+.navbar-brand a {
+    padding: 25px 15px;
+    height: 66px;
 }
 
+.nav > li > a > img  {
+    max-width: 20px;
+}
 
+.text-brand a{
+    color: #737373;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
 /***** Page title *****/
 
 .page-title {
@@ -306,14 +308,6 @@ ul.navbar-nav li a.big-link-1:hover {
     line-height: 32px;
 }
 
-.partners-top-section {
-    text-align: left;
-    padding-top: 20px;
-}
-
-.partners-top-section a {
-    /*margin-top: 20px;*/
-}
 /***** Clients *****/
 
 .clients-text {
@@ -410,6 +404,7 @@ ul.navbar-nav li a.big-link-1:hover {
 .block-2-box p {
     font-size: 18px;
     line-height: 32px;
+    padding-left: 20px;
 }
 
 .block-2-box ul {
@@ -484,6 +479,13 @@ ul.navbar-nav li a.big-link-1:hover {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20em;
+}
+
+.mentors-hero-wrap{
+    background: url(../img/mentors/mentors-group.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20em;   
 }
 
 .hack-your-future-hero-wrap{
@@ -731,9 +733,9 @@ ul.navbar-nav li a.big-link-1:hover {
 /***** Footer *****/
 
 footer {
-    padding: 25px 0 20px 0;
-    background: #404040;
+    padding: 10px 0 10px 0;
     text-align: right;
+    color: #999;
 }
 
 footer .scroll-to-top {
@@ -743,12 +745,13 @@ footer .scroll-to-top {
 footer .scroll-to-top a { color: #666; }
 footer .scroll-to-top a:hover, footer .scroll-to-top a:focus, footer .scroll-to-top a:active { outline: 0; opacity: 0.6; color: #666; }
 
-.footer-copyright {
-    margin: 11px 0 0 0;
-    font-size: 18px;
-    color: #fff;
-    line-height: 32px;
+footer .credits {
     text-align: left;
+    font-size: 0.8em;
+}
+
+footer .credits a {
+    color: #999;
 }
 
 footer .vendor-license,
@@ -756,6 +759,7 @@ footer .vendor-license a {
    color: #999;
    font-style: italic;
    font-size: 0.8em;
+   text-align: left;
 }
 
 .footer-copyright a { color: #fff; border: 0; }

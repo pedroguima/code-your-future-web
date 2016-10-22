@@ -5,10 +5,8 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Code Your Future</title>
-
-      <!-- CSS -->
     
-      <link rel="stylesheet" href="stylesheets/index.css">
+      <link rel="stylesheet" href="stylesheets/index.css?v0.0.5">
 
       <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,10 +17,12 @@
     </head>
     <body>
 
+      {{>navigation}}
+
       {{#block "main"}}{{/block}}
 
       {{>footer}}
-      <!-- Javascript -->
+
       <script src="js/jquery-1.11.1.min.js"></script>
       <script src="js/jquery.backstretch.min.js"></script>
       <script src="js/wow.min.js"></script>
@@ -30,11 +30,8 @@
       <script src="js/waypoints.min.js"></script>
       <script src="js/jquery.countTo.js"></script>
       <script src="js/masonry.pkgd.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
       <script src="js/scripts.js"></script>
-
-      <!--[if lt IE 10]>
-          <script src="js/placeholder.js"></script>
-      <![endif]-->
 
     </body>
 </html>
