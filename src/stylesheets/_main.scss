@@ -196,12 +196,12 @@ ul.navbar-nav {
 ul.navbar-nav li a {
     padding-top: 23px;
     padding-bottom: 23px;
-    color: #888;
+    color: #000;
 }
 
 ul.navbar-nav li a:hover { 
     background: none;
-    color: #2ba560;
+    color: #555;
     text-decoration: underline;
 }
 
@@ -231,17 +231,15 @@ ul.navbar-nav li a.big-link-1:hover {
     padding: 25px 15px;
     width: 240;
     height: 66px;
-    /*background: url(ico/facebook.svg) left center no-repeat;*/
-    /*text-indent: -99999px;*/
 }
 
 .navbar-brand a {
     padding: 25px 15px;
     height: 66px;
-    /*background: url(ico/facebook.svg) left center no-repeat;*/
-    /*text-indent: -99999px;
-   color: #000 !important; */
+}
 
+.nav > li > a > img  {
+    max-width: 20px;
 }
 
 .text-brand a{
