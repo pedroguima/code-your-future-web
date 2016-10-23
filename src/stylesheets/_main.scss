@@ -749,12 +749,18 @@ footer .credits {
     text-align: left;
 }
 
-footer .vendor {
-    font-size: 0.8em;
-}
-
 footer .credits a {
     color: #999;
+}
+
+footer .our-vendor{
+    font-size: 1.2em;
+}
+
+footer img {
+    height: 15px;
+    margin-top: -5px;
+    margin: 5px;
 }
 
 footer .vendor-license,
