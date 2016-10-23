@@ -16,7 +16,7 @@ deployment:
       - gulp rebuild
       - aws s3 sync build s3://demo-codeyourfuture --delete
   staging:
-    branch: release-candidate-v0.1
+    branch: staging
     commands:
       - npm install
       - gulp rebuild
