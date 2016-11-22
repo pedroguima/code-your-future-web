@@ -1,3 +1,7 @@
+/* todo:
+  - standardize font sizes
+*/
+
 body {
     min-width: 320px;
     background: #fff;
@@ -51,7 +55,9 @@ img { max-width: 100%; }
     padding-bottom: 30px;
 }
 
-.section-container-gray { background: #f8f8f8; }
+.section-container-gray { 
+    background: #f8f8f8; 
+}
 
 .section-container-blue {
     background: #75a2ca;
@@ -110,7 +116,15 @@ img { max-width: 100%; }
     color: #fff;
     -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;
 }
-.big-link-2:hover, .big-link-2:focus, .big-link-2:active, .big-link-2:active:focus { outline: 0; opacity: 0.6; background: none; color: #fff; }
+.big-link-2:hover,
+.big-link-2:focus,
+.big-link-2:active,
+.big-link-2:active:focus {
+    outline: 0;
+    opacity: 0.6;
+    background: none;
+    color: #fff;
+}
 
 .big-link-3 {
     display: inline-block;
@@ -124,7 +138,15 @@ img { max-width: 100%; }
     color: #000;
     -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;
 }
-.big-link-3:hover, .big-link-3:focus, .big-link-3:active, .big-link-3:active:focus { outline: 0; opacity: 0.6; background: rgba(0,0,0,.2); color: #333; }
+
+.big-link-3:hover,
+.big-link-3:focus,
+.big-link-3:active,
+.big-link-3:active:focus { 
+    outline: 0;
+    opacity: 0.6;
+    background: rgba(0,0,0,.2);color: #333;
+}
 
 .green-text { color: #2ba560; }
 
@@ -153,29 +175,6 @@ img { max-width: 100%; }
     padding-top: 10px;
     padding-bottom: 5px;
 }
-
-
-/***** Small sliders *****/
-
-.slider-1-box { text-align: center; }
-
-.slider-1-box img { display: none; }
-.slider-1-box img.slider-1-img-active { display: inline; }
-
-.slider-1-nav { margin-top: 30px; }
-
-.slider-1-nav span {
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    margin: 0 7px;
-    background: #ddd;
-    -moz-border-radius: 12px; -webkit-border-radius: 12px; border-radius: 12px;
-    cursor: pointer;
-    vertical-align: middle;
-}
-.slider-1-nav span.slider-1-nav-item-active { background: #2ba560; }
-
 
 /***** Top menu *****/
 
@@ -258,16 +257,16 @@ ul.navbar-nav li a.big-link-1:hover {
 
 .page-title-text {
     margin: 0 auto;
-    color: #fff;
     background-color: rgba(62, 100, 132, 0.42);
     padding: 20px;
+    color: #fff;
 }
 
 .page-title-text h1 {
-    color: #fff;
     text-shadow: 0 1px 6px rgba(51, 51, 51, 0.2);
     font-weight: 100;
     font-size: 4em;
+    color: #fff;
 }
 
 .page-title-text p {
@@ -293,50 +292,6 @@ ul.navbar-nav li a.big-link-1:hover {
     font-size: 18px;
     line-height: 32px;
 }
-/***** Who we are (block 3) *****/
-
-.block-3-box {
-    margin-top: 30px;
-}
-
-.block-3-box h3 {
-    padding: 10px 0;
-}
-
-.block-3-box p {
-    font-size: 18px;
-    line-height: 32px;
-}
-
-/***** Clients *****/
-
-.clients-text {
-    text-align: left;
-}
-
-.clients-text.brand{
-    color: #888;
-    font-size: 2.5em;
-    font-weight: bolder;
-    font-style: italic;
-}
-
-.clients-text h3 { color: #ccc; }
-
-.clients {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: left;
-}
-
-.clients a, .clients h3 {
-    display: inline-block;
-    margin: 0;
-    line-height: 30px;
-}
-
-.clients a:hover, .clients a:focus { outline: 0; opacity: 0.6; }
-
 
 /***** Block definition *****/
 
@@ -369,7 +324,6 @@ ul.navbar-nav li a.big-link-1:hover {
     padding-left: 25px;
 
 }
-
 
 /***** Block 2 *****/
 /* Use for two columns with lists */
@@ -505,6 +459,34 @@ ul.navbar-nav li a.big-link-1:hover {
     font-size: 1.5em;
     text-shadow: 2px 1px 1px #a9a9a9;
 }
+
+.clients-text {
+    text-align: left;
+}
+
+.clients-text.brand{
+    color: #888;
+    font-size: 2.5em;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.clients-text h3 { color: #ccc; }
+
+.clients {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.clients a, .clients h3 {
+    display: inline-block;
+    margin: 0;
+    line-height: 30px;
+}
+
+.clients a:hover, .clients a:focus { outline: 0; opacity: 0.6; }
+
 /***** Team *****/
 
 .team-container {
