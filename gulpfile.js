@@ -8,11 +8,12 @@ const paths = {};
 paths.src = {};
 paths.src.root = 'src';
 paths.src.stylesheets = `${paths.src.root}/stylesheets`;
-paths.src.html = `${paths.src.root}/html/**/*.html`;
+paths.src.html = `${paths.src.root}/html/**/*`;
 paths.src.htmlPartials = `${paths.src.root}/html/partials/**/*.hbs`;
 paths.src.img = `${paths.src.root}/img/**/*`;
 paths.src.js = `${paths.src.root}/js/**/*`;
 paths.src.fonts = `${paths.src.root}/fonts/**/*`;
+paths.src.resources = `${paths.src.root}/resources/**/*`;
 
 paths.build = {};
 paths.build.root = 'build';
@@ -64,9 +65,14 @@ gulp.task('js', function () {
       .pipe(gulp.dest(paths.build.js));
 });
 
+gulp.task('resources', function () {
+  return gulp.src([paths.src.resources])
+      .pipe(gulp.dest(paths.build.root));
+});
+
 
 gulp.task('rebuild', function(callback) {
-  sequence('handlebars', 'stylesheets', 'img', 'fonts', 'js', callback);
+  sequence('handlebars', 'stylesheets', 'img', 'fonts', 'js', 'resources', callback);
 });
 
 
