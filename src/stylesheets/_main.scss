@@ -212,6 +212,10 @@ ul.navbar-nav li a:focus {
     text-decoration: underline;
 }
 
+ul.nav.navbar-right li a img {
+    width: 50px;
+}
+
 .navbar>.container .navbar-brand { margin-left: 0; }
 
 ul.navbar-nav li a.big-link-1{
