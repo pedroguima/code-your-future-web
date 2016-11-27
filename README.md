@@ -16,10 +16,10 @@
 ## Present
 
 To present merge your changes to `demo` branch. CI build deploy it to S3 on URL:
-- [demo-codeyourfuture.s3-website-us-west-2.amazonaws.com](demo-codeyourfuture.s3-website-us-west-2.amazonaws.com)
+- [demo-codeyourfuture.s3-website-us-west-2.amazonaws.com](http://demo-codeyourfuture.s3-website-us-west-2.amazonaws.com)
 
 Currently, there is only one release candidate branch `staging` accessible on:
-- [staging-codeyourfuture.s3-website-us-west-2.amazonaws.com](staging-codeyourfuture.s3-website-us-west-2.amazonaws.com)
+- [staging-codeyourfuture.s3-website-us-west-2.amazonaws.com](http://staging-codeyourfuture.s3-website-us-west-2.amazonaws.com)
 
 ## Contribute
 
