@@ -39,7 +39,7 @@ To contribute please follow instructions:
 - the code is approved by adding _LGTM_ to comment
 - after the PR is approved the reviewer, or contributor merges PR
 - when the PR is merged to master, automatic build on CircleCI deploys the website 
-- briefly look on the web to see your changes are fine; [http://codeyourfuture.co/](codeyourfuture.co)
+- briefly look on the web to see your changes are fine; [http://codeyourfuture.co/](http://codeyourfuture.co/)
 - move task fro in `Review` to `Done`
 
 Thank you.
