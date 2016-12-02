@@ -194,8 +194,8 @@ ul.navbar-nav {
 }
 
 ul.navbar-nav li a {
-    padding-top: 23px;
-    padding-bottom: 23px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     color: #888;
 }
 
@@ -231,10 +231,9 @@ ul.navbar-nav li a.big-link-1:hover {
     background-color: #7cb394;
 }
 
-.navbar-brand {
-    padding: 20px 15px;
-    width: 240;
-    height: 66px;
+.navbar-brand img {
+    height: 50px;
+    margin-top: -15px;
 }
 
 .navbar-brand a {
