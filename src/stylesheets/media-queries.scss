@@ -1,0 +1,42 @@
+//
+// screen: 1024px
+// ipad:   768px
+// phone   320px
+//
+
+/* ipad */
+@media (min-width: 768px) and (max-width: 991px) {
+    .page-title {
+        padding: 160px 0 210px 0;
+        background: url(../img/backgrounds/1-768.jpg);
+        @include background-img();
+    }
+    .student-hero-wrap{
+        background: url(../img/students/students-group-768.jpg);
+        @include hero-background(30em);
+    }
+
+    .mentors-hero-wrap{
+        background: url(../img/mentors/mentors-group-768.jpg);
+        @include hero-background(30em);
+    }
+}
+
+/* smartphone */
+@media (max-width: 767px) {
+    .page-title {
+        padding: 160px 0 210px 0;
+        background: url(../img/backgrounds/1-320.jpg);
+        @include hero-background(40em);
+    }
+
+    .student-hero-wrap{
+        background: url(../img/students/students-group-320.jpg);
+        @include hero-background(15em);
+    }
+
+    .mentors-hero-wrap{
+        background: url(../img/mentors/mentors-group-768.jpg);
+        @include hero-background(15em);
+    }
+}

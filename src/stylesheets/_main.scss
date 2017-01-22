@@ -2,12 +2,6 @@
   - standardize font sizes
 */
 
-@mixin hero-background($height){
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: $height;
-}
-
 body {
     min-width: 320px;
     background: #fff;
@@ -258,14 +252,12 @@ ul.navbar-nav li a.big-link-1:hover {
     font-weight: 900;
     letter-spacing: 2px;
 }
-/***** Page title *****/
 
+/***** Page title *****/
 .page-title {
     padding: 260px 0 210px 0;
     background: url("../img/backgrounds/1.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
+    @include background-img();
 }
 
 .page-title-text {
