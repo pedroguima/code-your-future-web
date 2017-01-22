@@ -7,7 +7,6 @@
 
 /* iPads */
 @media (min-width: 768px) and (max-width: 991px) {
-	.page-title-text { width: 600px; }
   .block-2-box.block-2-media { padding-top: 40px; }
 }
 

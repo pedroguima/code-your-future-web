@@ -20,18 +20,17 @@
         @include hero-background(30em);
     }
 }
-
 /* smartphone */
 @media (max-width: 767px) {
     .page-title {
-        padding: 53px 0 210px 0;
+        padding: 50px 0 210px 0;
         background: url(../img/backgrounds/1-320.jpg);
-        @include hero-background(487px);
+        @include hero-background(36em);
     }
 
     .student-hero-wrap{
         background: url(../img/students/students-group-320.jpg);
-        @include hero-background(15em);
+        @include hero-background(19em);
     }
 
     .mentors-hero-wrap{

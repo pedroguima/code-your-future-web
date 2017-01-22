@@ -52,7 +52,6 @@ img { max-width: 100%; }
 
 .section-container {
     margin: 0 auto;
-    padding-bottom: 30px;
 }
 
 .section-container-gray { 
@@ -72,8 +71,6 @@ img { max-width: 100%; }
 }
 
 .section-description {
-    margin-top: 60px;
-    padding-bottom: 10px;
 }
 
 .section-description p {
@@ -255,6 +252,7 @@ ul.navbar-nav li a.big-link-1:hover {
 
 /***** Page title *****/
 .page-title {
+    margin-top: 55px;
     padding: 260px 0 210px 0;
     background: url("../img/backgrounds/1.jpg");
     @include background-img();
@@ -263,7 +261,7 @@ ul.navbar-nav li a.big-link-1:hover {
 .page-title-text {
     margin: 0 auto;
     background-color: rgba(62, 100, 132, 0.42);
-    padding: 20px;
+    padding: 10px;
     color: #fff;
 }
 
@@ -337,7 +335,6 @@ ul.navbar-nav li a.big-link-1:hover {
  instead block-2-container
  use block-container */
 .block-2-container {
-    padding-top: 50px;
 }
 
 .block-2-box {
