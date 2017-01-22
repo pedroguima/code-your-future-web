@@ -48,6 +48,11 @@ img { max-width: 100%; }
 ::-moz-selection { background: #2ba560; color: #fff; text-shadow: none; }
 ::selection { background: #2ba560; color: #fff; text-shadow: none; }
 
+#typeform-full {
+    height: 42em;
+    display: inline-block;
+}
+
 /***** General style, all sections *****/
 
 .section-container {
