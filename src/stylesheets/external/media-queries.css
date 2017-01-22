@@ -1,22 +1,21 @@
-
 @media (min-width: 992px) and (max-width: 1199px) {
 	
 	.portfolio-box, .portfolio-box-text-container { width: 205px; }
 	
+  /* action needed! - migrate if needed to block-container */
 	.block-2-box.block-2-media { padding-top: 40px; }
 	
 	.testimonials-icon-container, .contact-icon-container { font-size: 280px; }
-	
 }
 
+/* iPads */
 @media (min-width: 768px) and (max-width: 991px) {
-	
 	.page-title-text { width: 600px; }
 	
-    .portfolio-filters { padding-left: 40px; padding-right: 40px; }
-    .portfolio-box, .portfolio-box-text-container { width: 210px; }
-	
-	.block-2-box.block-2-media { padding-top: 40px; }
+  .portfolio-filters { padding-left: 40px; padding-right: 40px; }
+  .portfolio-box, .portfolio-box-text-container { width: 210px; }
+  
+  .block-2-box.block-2-media { padding-top: 40px; }
 	
 	.pricing-2-table { padding-left: 5px; padding-right: 5px; }
 	.pricing-2-table-description span { padding-right: 0; }
@@ -28,9 +27,9 @@
 	.testimonials-icon-container, .contact-icon-container { font-size: 200px; }
 	
 	.contact-address p span { width: 30px; font-size: 20px; }
-
 }
 
+/* smartphones & iPads */
 @media (max-width: 767px) {
 	
 	.navbar>.container .navbar-brand { margin-left: 15px; }
@@ -54,9 +53,9 @@
 	
 	.portfolio-filters { padding-left: 15px; padding-right: 15px; }
 	.portfolio-masonry { padding: 0; }
-    .portfolio-box { width: 100%; margin: 30px 0 0 0; padding: 0 30px; }
-    .portfolio-box:hover img { -o-transform: none; -moz-transform: none; -webkit-transform: none; -ms-transform: none; transform: none; }
-	.portfolio-box-text-container { width: auto; left: 30px; right: 30px; }
+  .portfolio-box { width: 100%; margin: 30px 0 0 0; padding: 0 30px; }
+  .portfolio-box:hover img { -o-transform: none; -moz-transform: none; -webkit-transform: none; -ms-transform: none; transform: none; }
+  .portfolio-box-text-container { width: auto; left: 30px; right: 30px; }
 	.portfolio-box-text { max-width: 540px; margin: 0 auto; }
 	
 	.block-2-box { text-align: center; }
@@ -110,10 +109,8 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 	
-	/* logo */
+    /* image logo */
     .navbar-brand {
-
-    	/*background-image: url(../img/logo@2x.gif) !important; background-repeat: no-repeat !important; background-size: 220px !important;*/
+        /*background-image: url(../img/logo@2x.gif) !important; background-repeat: no-repeat !important; background-size: 220px !important;*/
     }
-	
 }
