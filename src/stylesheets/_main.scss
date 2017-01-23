@@ -49,7 +49,7 @@ img { max-width: 100%; }
 ::selection { background: #2ba560; color: #fff; text-shadow: none; }
 
 #typeform-full {
-    height: 42em;
+    height: 800px;
     display: inline-block;
 }
 
@@ -59,8 +59,8 @@ img { max-width: 100%; }
     margin: 0 auto;
 }
 
-.section-container-gray { 
-    background: #f8f8f8; 
+.section-container-gray {
+    background: #f8f8f8;
 }
 
 .section-container-blue {
@@ -144,7 +144,7 @@ img { max-width: 100%; }
 .big-link-3:hover,
 .big-link-3:focus,
 .big-link-3:active,
-.big-link-3:active:focus { 
+.big-link-3:active:focus {
     outline: 0;
     opacity: 0.6;
     background: rgba(0,0,0,.2);color: #333;
@@ -201,7 +201,7 @@ ul.navbar-nav li a {
     color: #888;
 }
 
-ul.navbar-nav li a:hover { 
+ul.navbar-nav li a:hover {
     background: none;
     color: #000;
     text-decoration: underline;
@@ -336,7 +336,7 @@ ul.navbar-nav li a.big-link-1:hover {
 /***** Block 2 *****/
 /* Use for two columns with lists */
 
-/* @DEPRECATED 
+/* @DEPRECATED
  instead block-2-container
  use block-container */
 .block-2-container {
@@ -531,7 +531,7 @@ ul.navbar-nav li a.big-link-1:hover {
 }
 
 /** @deprecated
-  will be removed on next release 
+  will be removed on next release
 **/
 .portfolio-box-text-container {
     position: absolute;

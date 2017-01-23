@@ -3,6 +3,8 @@
 // ipad:   768px
 // phone   320px
 //
+
+
 /* ipad */
 @media (min-width: 768px) and (max-width: 991px) {
     iframe {
@@ -26,8 +28,9 @@
 }
 /* smartphone */
 @media (max-width: 767px) {
-    iframe {
-        height: 35em;
+    #typeform-full {
+        height: 38em;
+        display: inline-block;
     }
 
     .page-title {
