@@ -48,15 +48,19 @@ img { max-width: 100%; }
 ::-moz-selection { background: #2ba560; color: #fff; text-shadow: none; }
 ::selection { background: #2ba560; color: #fff; text-shadow: none; }
 
+#typeform-full {
+    height: 800px;
+    display: inline-block;
+}
+
 /***** General style, all sections *****/
 
 .section-container {
     margin: 0 auto;
-    padding-bottom: 30px;
 }
 
-.section-container-gray { 
-    background: #f8f8f8; 
+.section-container-gray {
+    background: #f8f8f8;
 }
 
 .section-container-blue {
@@ -72,8 +76,6 @@ img { max-width: 100%; }
 }
 
 .section-description {
-    margin-top: 60px;
-    padding-bottom: 10px;
 }
 
 .section-description p {
@@ -142,7 +144,7 @@ img { max-width: 100%; }
 .big-link-3:hover,
 .big-link-3:focus,
 .big-link-3:active,
-.big-link-3:active:focus { 
+.big-link-3:active:focus {
     outline: 0;
     opacity: 0.6;
     background: rgba(0,0,0,.2);color: #333;
@@ -199,7 +201,7 @@ ul.navbar-nav li a {
     color: #888;
 }
 
-ul.navbar-nav li a:hover { 
+ul.navbar-nav li a:hover {
     background: none;
     color: #000;
     text-decoration: underline;
@@ -252,16 +254,19 @@ ul.navbar-nav li a.big-link-1:hover {
     font-weight: 900;
     letter-spacing: 2px;
 }
-/***** Page title *****/
 
+/***** Page title *****/
 .page-title {
+    margin-top: 55px;
     padding: 260px 0 210px 0;
+    background: url("../img/backgrounds/1.jpg");
+    @include background-img();
 }
 
 .page-title-text {
     margin: 0 auto;
     background-color: rgba(62, 100, 132, 0.42);
-    padding: 20px;
+    padding: 10px;
     color: #fff;
 }
 
@@ -331,11 +336,10 @@ ul.navbar-nav li a.big-link-1:hover {
 /***** Block 2 *****/
 /* Use for two columns with lists */
 
-/* @DEPRECATED 
+/* @DEPRECATED
  instead block-2-container
  use block-container */
 .block-2-container {
-    padding-top: 50px;
 }
 
 .block-2-box {
@@ -433,23 +437,22 @@ ul.navbar-nav li a.big-link-1:hover {
 
 .student-hero-wrap{
     background: url(../img/students/students-group.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40em;
+    @include hero-background(40em);
 }
 
 .mentors-hero-wrap{
     background: url(../img/mentors/mentors-group.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40em;
+    @include hero-background(40em);
 }
 
 .hack-your-future-hero-wrap{
     background: url(../img/partners/hack_your_future_working.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40em;
+    @include hero-background(40em);
+}
+
+.index-hero{
+    background: url("img/backgrounds/1.jpg");
+    @include hero-background(40em);
 }
 
 .hack-your-future-hero-wrap h1 {
@@ -527,6 +530,9 @@ ul.navbar-nav li a.big-link-1:hover {
     padding-top: 20px;
 }
 
+/** @deprecated
+  will be removed on next release
+**/
 .portfolio-box-text-container {
     position: absolute;
     bottom: -200px;
