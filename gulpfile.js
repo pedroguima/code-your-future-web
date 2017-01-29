@@ -25,42 +25,42 @@ paths.build.fonts = `${paths.build.root}/fonts/`;
 
 gulp.task('handlebars', function () {
   return gulp
-	.src(paths.src.html)
-	  .pipe(
-		hb({
-		  partials: paths.src.htmlPartials
-		}).helpers(handlebarsLayouts)
-	  )
-	.pipe(gulp.dest(paths.build.root));
+    .src(paths.src.html)
+      .pipe(
+        hb({
+          partials: paths.src.htmlPartials
+        }).helpers(handlebarsLayouts)
+      )
+    .pipe(gulp.dest(paths.build.root));
 });
 
 
 gulp.task('stylesheets', function () {
   return gulp.src(`${paths.src.stylesheets}/index.scss`)
-	  .pipe(sass().on('error', sass.logError))
-	  .pipe(gulp.dest(paths.build.stylesheets));
+      .pipe(sass().on('error', sass.logError))
+      .pipe(gulp.dest(paths.build.stylesheets));
 });
 
 
 gulp.task('img', function () {
   return gulp.src(paths.src.img)
-	  .pipe(gulp.dest(paths.build.img));
+      .pipe(gulp.dest(paths.build.img));
 });
 
 gulp.task('fonts', function () {
   return gulp.src(paths.src.fonts)
-	  .pipe(gulp.dest(paths.build.fonts));
+      .pipe(gulp.dest(paths.build.fonts));
 });
 
 
 gulp.task('js', function () {
   return gulp.src([paths.src.js, 'node_modules/bootstrap/dist/js/bootstrap.min.js'])
-	  .pipe(gulp.dest(paths.build.js));
+      .pipe(gulp.dest(paths.build.js));
 });
 
 gulp.task('resources', function () {
   return gulp.src([paths.src.resources])
-	  .pipe(gulp.dest(paths.build.root));
+      .pipe(gulp.dest(paths.build.root));
 });
 
 
