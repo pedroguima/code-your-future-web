@@ -27,7 +27,7 @@ Development workflow is tracked on [CYF Web](https://trello.com/b/wLDcxrly/cyf-w
 
 If you found an error, got idea for improvement, or new feature you can submit a new ticket to `Ideas`.
 
-To get access to Trello, email to either `apmaros[at]gmail.com`, or `contact[at]codeyourfuture.co`, or let us know on Slack and we will add you to the project.
+To get access to Trello `admin[at]codeyourfuture.co`, or let us know on Slack and we will add you to the project.
 
 To contribute please follow instructions: 
 
