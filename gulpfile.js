@@ -47,13 +47,6 @@ gulp.task('img', function () {
       .pipe(gulp.dest(paths.build.img));
 });
 
-
-gulp.task('img', function () {
-  return gulp.src(paths.src.img)
-      .pipe(gulp.dest(paths.build.img));
-});
-
-
 gulp.task('fonts', function () {
   return gulp.src(paths.src.fonts)
       .pipe(gulp.dest(paths.build.fonts));
